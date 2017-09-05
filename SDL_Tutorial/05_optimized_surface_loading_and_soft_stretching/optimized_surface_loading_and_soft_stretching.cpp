@@ -172,6 +172,7 @@ int main(int argc, char* args[])
 				//Dong: blit images to a different size.
 				//Dong: for example, the loaded surface is 320*240, but we want to blit to the screen size: 640*480.
 				//Dong: then it will stretch the smaller image to a larger size according to the SDL_Rect.
+				//Dong: The SDL_RenderSetViewport() can also have the same effect.
 				SDL_BlitScaled(gStretchedSurface, NULL, gScreenSurface, &stretchRect);
 
 				//Update the surface
