@@ -32,13 +32,13 @@
 *.app
 
 # Dong: project related files
-*.sdf
-*.sln
-*.suo
-*.ilk
-*.pdb
-*.vcxproj
-*.filters
-*.tlog
-*.log
-*.idb
+#*.sdf
+#*.sln
+#*.suo
+#*.ilk
+#*.pdb
+#*.vcxproj
+#*.filters
+#*.tlog
+#*.log
+#*.idb

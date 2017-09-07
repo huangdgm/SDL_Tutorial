@@ -257,7 +257,6 @@ bool loadMedia()
 	{
 		//Set standard alpha blending
 		//Dong: In order to get blending to work properly, you must set the blend mode on the texture.
-		//Dong: Since the background isn't going to be transparent, we don't have to set the blending on it.
 		gModulatedTexture.setBlendMode(SDL_BLENDMODE_BLEND);
 	}
 
@@ -267,6 +266,8 @@ bool loadMedia()
 		printf("Failed to load background texture!\n");
 		success = false;
 	}
+
+	//Dong: Since the background isn't going to be transparent, we don't have to set the blending on it.
 
 	return success;
 }
